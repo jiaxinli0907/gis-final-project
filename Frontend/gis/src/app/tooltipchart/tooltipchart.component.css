@@ -1,0 +1,27 @@
+#tool {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+}
+
+.barCharts {
+  width: 100%;
+  height: 40%;
+}
+
+
+
+/*
+#navArea {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+*/
+
+#slide {
+  width: 90%;
+  height: 100%;
+}

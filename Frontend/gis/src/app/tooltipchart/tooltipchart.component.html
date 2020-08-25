@@ -1,0 +1,28 @@
+<div id="tool">
+  
+
+  
+  <div id="Output">
+    <div id="analysis">
+      <H2>Forest Coverage</H2><br>
+    </div>
+      <li>Use the slider to see increase/decrease of forests for each country</li>
+      <li> if you want to see details click on a country to get them</li>
+    <svg id="barChart" class="barCharts"></svg>
+    <div id="selection"> Selection: <br></div>
+    <div id="correlation"></div>
+    <svg id="barChart2" class="barCharts"></svg>
+  </div>
+
+  <div class="custom-slider">
+    <ng5-slider id="slide" 
+    [(value)]="value"  
+    [(highValue)]="highValue"  
+    (valueChange)="valueChange.emit($event)"
+    (highValueChange)="highValueChange.emit($event)"
+    [options]="options" >
+</ng5-slider>
+  </div>
+
+</div>
+

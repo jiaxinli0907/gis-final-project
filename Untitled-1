@@ -1,0 +1,5 @@
+1. map forest csv file to /importdata
+    1.1 docker-compose.yml
+2. write import-forest.sql script to create forest table and copy from csv file and put it in docker-entrypoint-init.d
+
+3. remove .entry_point.lock or if that doesnt work docker-compose down and docker volume prune to remove database
